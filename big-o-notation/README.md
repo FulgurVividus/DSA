@@ -1,4 +1,4 @@
-# Big O Notation Explained Simply 🚀
+# Big O Notation 🚀
 
 ## What is Big O Notation? 🤔
 
@@ -23,7 +23,7 @@ In simple terms, it tells us: **"How does the algorithm scale?"** 📈
 
 ---
 
-## Examples in JavaScript 🧑‍💻
+## Time Complexity 🧑‍💻
 
 ### 🟢 O(1) - Constant Time (Fastest ✅)
 
@@ -66,8 +66,48 @@ function fibonacci(n) {
 
 ---
 
+## Space Complexity 🧠
+
+Space complexity measures the amount of **memory** an algorithm uses as input size grows. It includes:
+
+- **Auxiliary space** (temporary variables, function calls, etc.)
+- **Input space** (size of the input data itself)
+
+### Space Complexity Examples 📦
+
+### 🟢 O(1) - Constant Space (Uses fixed memory ✅)
+
+```js
+function sumTwoNumbers(a, b) {
+  return a + b; // Only stores two numbers, so space is constant
+}
+```
+
+### 🟡 O(n) - Linear Space (Scales with Input Size 📈)
+
+```js
+function createArray(n) {
+  let arr = [];
+  for (let i = 0; i < n; i++) {
+    arr.push(i); // Array grows with input size
+  }
+  return arr;
+}
+```
+
+### 🟠 O(n) - Recursive Function (Stack Space 🏗️)
+
+```js
+function factorial(n) {
+  if (n === 0) return 1;
+  return n * factorial(n - 1); // Each call adds to the call stack
+}
+```
+
+---
+
 ## Summary 🏁
 
-✅ **O(1) is best** (constant time) <br>
-⚠️ **O(n²) and worse should be avoided** when possible <br>
-💡 **Use efficient algorithms like divide & conquer** (e.g., O(log n))
+✅ **O(1) is best** for both time and space <br>
+⚠️ **Recursive algorithms can have high space complexity** due to call stack <br>
+💡 **Optimize memory usage when possible**
