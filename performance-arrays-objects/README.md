@@ -6,8 +6,8 @@ Understanding **Objects** & **Arrays** through the lens of **Big O Notation** �
 
 ## 🏗️ When to Use Objects
 
-✔️ When you **don't need order** 📌
-✔️ When you **need fast access, insertion, and removal** ⚡
+- ✔️ When you **don't need order** 📌
+- ✔️ When you **need fast access, insertion, and removal** ⚡
 
 ### ⏳ Big O of Objects
 
@@ -33,8 +33,8 @@ Understanding **Objects** & **Arrays** through the lens of **Big O Notation** �
 
 ## 📋 When to Use Arrays
 
-✔️ When you **need order** 📊
-✔️ When you **need fast access, insertion, and removal** (sort of... 🤔)
+- ✔️ When you **need order** 📊
+- ✔️ When you **need fast access, insertion, and removal** (sort of... 🤔)
 
 ### ⏳ Big O of Arrays
 
