@@ -2,14 +2,14 @@
 
 ### 🔥 Some Powerful Patterns:
 
-✅ **Frequency Counter** 📊
-✅ **Multiple Pointers** 🎯
-✅ **Sliding Window** 🪟
-✅ **Divide and Conquer** ⚔️
-✅ **Dynamic Programming** 🧠
-✅ **Greedy Algorithms** 💰
-✅ **Backtracking** 🔄
-✅ **And many more!** 🔥
+- ✅ **Frequency Counter** 📊
+- ✅ **Multiple Pointers** 🎯
+- ✅ **Sliding Window** 🪟
+- ✅ **Divide and Conquer** ⚔️
+- ✅ **Dynamic Programming** 🧠
+- ✅ **Greedy Algorithms** 💰
+- ✅ **Backtracking** 🔄
+- ✅ **And many more!** 🔥
 
 ---
 
