@@ -73,3 +73,8 @@ function bubbleSort(arr, comparatorFn) {
 
   return arr;
 }
+
+// j < i - 1
+// The largest elements bubble up to the end, so we don't need to compare them again.
+// As i decreases, we reduce the number of comparisons.
+// This optimization saves unnecessary iterations, improving performance.
