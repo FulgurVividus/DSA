@@ -16,7 +16,7 @@ class SinglyLinkedList {
     this.length = 0;
   }
 
-  //#
+  //# adds new node to the end
   push(val) {
     const newNode = new Node(val);
 
@@ -32,7 +32,7 @@ class SinglyLinkedList {
     return this;
   }
 
-  //#
+  //# removes the last node
   pop() {
     if (!this.head) return undefined;
 
@@ -56,7 +56,7 @@ class SinglyLinkedList {
     return current;
   }
 
-  //#
+  //# removes a new node from the beginning
   shift() {
     if (!this.head) return undefined;
 
@@ -72,7 +72,7 @@ class SinglyLinkedList {
     return currentHead;
   }
 
-  //#
+  //# adds new node to the beginning
   unshift(val) {
     let newNode = new Node(val);
 
@@ -88,7 +88,7 @@ class SinglyLinkedList {
     return this;
   }
 
-  //#
+  //# retrieves a node by its position in the list
   get(index) {
     if (index < 0 || index >= this.length) return null;
 
@@ -103,7 +103,7 @@ class SinglyLinkedList {
     return current;
   }
 
-  //#
+  //# changes the value of node based on its position in the list
   set(index, val) {
     let foundNode = this.get(index);
 
@@ -115,7 +115,7 @@ class SinglyLinkedList {
     return false;
   }
 
-  //#
+  //# adds a new node to the list at the specific position
   insert(index, val) {
     if (index < 0 || index > this.length) return false;
     if (index === this.length) return !!this.push(val);
@@ -131,7 +131,7 @@ class SinglyLinkedList {
     return true;
   }
 
-  //#
+  //# removes a node from the list at specific position
   remove(index) {
     if (index < 0 || index >= this.length) return undefined;
     if (index === 0) return this.shift();
@@ -145,7 +145,7 @@ class SinglyLinkedList {
     return removed;
   }
 
-  //#
+  //# reverses the list in place
   reverse() {
     let node = this.head;
     this.head = this.tail;
