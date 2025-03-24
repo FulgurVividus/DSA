@@ -53,19 +53,6 @@ Graphs can be represented using:
 - Efficient for dense graphs.
 - Faster lookup of specific edges.
 
-### 🔄 **Comparison Table:**
-
-| Operation         | Adjacency List | Adjacency Matrix |
-| ----------------- | -------------- | ---------------- | --- | ---- | --- | ---- | --- | --- |
-| **Add Vertex**    | O(1)           | O(               | V²  | )    |
-| **Add Edge**      | O(1)           | O(1)             |
-| **Remove Vertex** | O(             | V                | +   | E    | )   | O(   | V²  | )   |
-| **Remove Edge**   | O(             | E                | )   | O(1) |
-| **Query**         | O(             | V                | +   | E    | )   | O(1) |
-| **Storage**       | O(             | V                | +   | E    | )   | O(   | V²  | )   |
-
-📌 **Adjacency List is better for sparse graphs, while Adjacency Matrix is better for dense graphs.**
-
 ---
 
 ## 🏆 Recap
